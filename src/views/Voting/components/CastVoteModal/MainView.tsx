@@ -103,7 +103,7 @@ const MainView: React.FC<MainViewProps> = ({
               <Message variant="danger" mb="12px">
                 <Text color="danger">
                   {t(
-                    'Hold some CAKE in your wallet or on PancakeSwap at the snapshot block to get voting power for future proposals.',
+                    'Hold some VENOS in your wallet or on Venos Stakify at the snapshot block to get voting power for future proposals.',
                   )}
                 </Text>
               </Message>

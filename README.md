@@ -1,6 +1,6 @@
-# Shadow Frontend
+# Venos Stakify Frontend
 
-This project contains the main features of the shadow application.
+This project contains the main features of the vebis stakify application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
@@ -8,7 +8,6 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 
 - [Info](doc/Info.md)
 - [Cypress tests](doc/Cypress.md)
-
 
 ## Quick Start
 
@@ -19,15 +18,18 @@ yarn --registry https://registry.npmjs.org/
 ```
 
 start the development server
+
 ```sh
 yarn dev
 ```
 
 build with production mode
+
 ```sh
 yarn build
 
 # start the application after build
 yarn start
 ```
-May the Shadow Be with you
+
+May the Venos Stakify Be with you

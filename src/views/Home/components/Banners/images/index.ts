@@ -8,6 +8,7 @@ import modMobileImage from './mod-tc-mobile.png'
 import lotteryMobileImage from './lotteryMobile.png'
 import modWhiteLogo from './mod-white-logo.png'
 import perpetualImage from './perpetual.png'
+import venosCoinImage from './venosCoin.png'
 import perpetualMobileImage from './perpetualMobile.png'
 import listingImage from './listing.png'
 import listingMobileImage from './listingMobile.png'
@@ -23,6 +24,7 @@ export {
   IFOMobileImage,
   modWhiteLogo,
   perpetualImage,
+  venosCoinImage,
   perpetualMobileImage,
   listingImage,
   listingMobileImage,

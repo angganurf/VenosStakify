@@ -127,11 +127,11 @@
     },
     {
       "name": "Venos Stakify Token",
-      "symbol": "SHDW",
+      "symbol": "VENOS",
       "address": "0xa48496B0a392007eA9E0354cc804D98444Ecc227",
-      "chainId": 1115,
+      "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SVerseLab/Shadow-finance-frontend/Main/public/images/tokens/Shadow.png"
+      "logoURI": "https://venosproject.com/images/icons/logo.png"
     },
     {
       "name": "sUSDC Token",

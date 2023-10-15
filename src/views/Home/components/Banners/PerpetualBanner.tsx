@@ -5,7 +5,7 @@ import { memo, useMemo } from 'react'
 import styled, { useTheme } from 'styled-components'
 import { perpLangMap } from 'utils/getPerpetualLanguageCode'
 import { perpTheme } from 'utils/getPerpetualTheme'
-import { perpetualImage, perpetualMobileImage } from './images'
+import { perpetualImage, perpetualMobileImage, venosCoinImage } from './images'
 import * as S from './Styled'
 
 const RightWrapper = styled.div`
@@ -41,8 +41,8 @@ const PerpetualBanner = () => {
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <S.StyledSubheading>{t('Fs Lab')}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{t('Venos Stakify Powered by Fs Lab')}</Header>
+          <S.StyledSubheading>{t('Venos Project')}</S.StyledSubheading>
+          <Header width={['160px', '160px', 'auto']}>{t('Venos Stakify Powered by Venos Project')}</Header>
           <Link href="#">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
@@ -54,9 +54,9 @@ const PerpetualBanner = () => {
         </S.LeftWrapper>
         <RightWrapper>
           {isDesktop ? (
-            <Image src={perpetualImage} alt="PerpetualBanner" width={392} height={232} placeholder="blur" />
+            <Image src={venosCoinImage} alt="PerpetualBanner" width={232} height={210} placeholder="blur" />
           ) : (
-            <Image src={perpetualMobileImage} alt="PerpetualBanner" width={208} height={208} placeholder="blur" />
+            <Image src={venosCoinImage} alt="PerpetualBanner" width={208} height={208} placeholder="blur" />
           )}
         </RightWrapper>
       </S.Inner>

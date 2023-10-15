@@ -54,7 +54,7 @@ const Stats = () => {
       </Flex>
 
       <Text textAlign="center" color="textSubtle" bold mb="32px">
-        {t('Will you join the Shadows?')}
+        {t('Will you join the Venos Project?')}
       </Text>
 
       <Flex flexDirection={['column', null, null, 'row']}>

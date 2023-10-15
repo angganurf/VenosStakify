@@ -353,7 +353,7 @@ const HowToPlay: React.FC = () => {
           <Text>
             {t('Check our in-depth guide on')}{' '}
             <InlineLink href="https://docs.venosproject.com/products/lottery/lottery-guide">
-              {t('how to play the PancakeSwap lottery!')}
+              {t('how to play the Venos Stakify lottery!')}
             </InlineLink>
           </Text>
         </Flex>
