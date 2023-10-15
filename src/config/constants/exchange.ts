@@ -1,11 +1,12 @@
 import { ChainId, JSBI, Percent, Token } from '@pancakeswap/sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { bscTokens, bscTestnetTokens } from './tokens'
+import { bscTokens, bscTestnetTokens, opbnbTestnetTokens } from './tokens'
 import { ChainTokenList } from './types'
 
 export const ROUTER_ADDRESS = {
   [ChainId.BSC]: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
-  [ChainId.BSC_TESTNET]: '0x87f40ffec16F18053B494a1C417Fb1d1ce180BC3',
+  [ChainId.BSC_TESTNET]: '0x5AeB8c29ff7D98c9eef21067efA8a65BFa29b9E1',
+  [ChainId.OPBNB_TESTNET]: '0x5AeB8c29ff7D98c9eef21067efA8a65BFa29b9E1',
 }
 
 // used to construct intermediary pairs for trading
@@ -20,6 +21,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     bscTokens.usdc,
   ],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
 }
 
 /**
@@ -43,12 +45,14 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.busd, bscTokens.cake, bscTokens.btcb],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -87,10 +91,10 @@ export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)
 // BNB
 export const DEFAULT_INPUT_CURRENCY = 'BNB'
 // CAKE
-export const DEFAULT_OUTPUT_CURRENCY = '0xa48496B0a392007eA9E0354cc804D98444Ecc227'
+export const DEFAULT_OUTPUT_CURRENCY = '0x752982a24C733c5ac62EfB6979Bd1927993f0ab8'
 
 // Handler string is passed to Gelato to use PCS router
 export const GELATO_HANDLER = 'pancakeswap'
 export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = BigNumber.from(500000)
 
-export const LIMIT_ORDERS_DOCS_URL = 'https://docs.pancakeswap.finance/products/pancakeswap-exchange/limit-orders'
+export const LIMIT_ORDERS_DOCS_URL = 'https://docs.venosproject.com/products/pancakeswap-exchange/limit-orders'

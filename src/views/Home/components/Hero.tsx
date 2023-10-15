@@ -109,16 +109,16 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('#1 Dex on Core Chain From the Shadows.')}
+            {t('#1 Staking on opBNB Chain From the Venos.')}
           </Heading>
           <Heading scale="md" mb="24px">
             {t(
-              'ShadowSwap is a one-stop decentralized trading protocol which utilizes the security, scalability, and decentralization of the Core blockchain, creating an open and safe marketplace for traders, liquidity providers, and developers.',
+              'Venos Stakify is a one-stop decentralized staking protocol which utilizes the security, scalability, and decentralization of the opBNB blockchain.',
             )}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
-            <NextLinkFromReactRouter to="/swap">
+            <NextLinkFromReactRouter to="/farms">
               <Button variant={!account ? 'secondary' : 'primary'}>{t('Trade Now')}</Button>
             </NextLinkFromReactRouter>
           </Flex>

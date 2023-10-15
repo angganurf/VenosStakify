@@ -8,7 +8,10 @@
   },
   "tags": {},
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancake", "default"],
+  "keywords": [
+    "pancake",
+    "default"
+  ],
   "tokens": [
     {
       "name": "WBNB Token",
@@ -51,12 +54,12 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
     },
     {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
+      "name": "Venos Token",
+      "symbol": "VENOS",
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://venosproject.com/images/icons/logo.png"
     },
     {
       "name": "Venus",
@@ -123,7 +126,7 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0xA7f552078dcC247C2684336020c03648500C6d9F.png"
     },
     {
-      "name": "ShadowSwap Token",
+      "name": "Venos Stakify Token",
       "symbol": "SHDW",
       "address": "0xa48496B0a392007eA9E0354cc804D98444Ecc227",
       "chainId": 1115,

@@ -51,6 +51,7 @@ export interface TagInfo extends TagDetails {
 export const EMPTY_LIST: TokenAddressMap = {
   [ChainId.BSC]: {},
   [ChainId.BSC_TESTNET]: {},
+  [ChainId.OPBNB_TESTNET]: {},
 }
 
 export enum GAS_PRICE {
@@ -325,7 +326,7 @@ export enum PredictionStatus {
 
 export enum PredictionSupportedSymbol {
   BNB = 'BNB',
-  CAKE = 'CAKE',
+  CAKE = 'VENOS',
 }
 
 export enum PredictionsChartView {

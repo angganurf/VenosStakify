@@ -4,9 +4,9 @@ const CAKE_MAINNET = new Token(
   ChainId.BSC,
   '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   18,
-  'CAKE',
-  'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'VENOS',
+  'Venos Token',
+  'https://venosproject.com/',
 )
 
 const CAKE_TESTNET = new Token(
@@ -14,7 +14,7 @@ const CAKE_TESTNET = new Token(
   '0xa48496B0a392007eA9E0354cc804D98444Ecc227',
   18,
   'SHDW',
-  'ShadowSwap Token',
+  'Venos Stakify Token',
   'https://pancakeswap.finance/',
 )
 
@@ -64,9 +64,19 @@ const BUSD_TESTNET = new Token(
   'https://www.paxos.com/busd/',
 )
 
+const BUSD_OPBNBTESTNET = new Token(
+  ChainId.OPBNB_TESTNET,
+  '0x4200000000000000000000000000000000000006',
+  18,
+  'BUSD',
+  'Binance USD',
+  'https://www.OPBNB.com/busd/',
+)
+
 export const BUSD: Record<ChainId, Token> = {
   [ChainId.BSC]: BUSD_MAINNET,
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
+  [ChainId.OPBNB_TESTNET]: BUSD_OPBNBTESTNET,
 }
 
 export const bscTokens = {
@@ -2329,6 +2339,26 @@ export const bscTokens = {
     'PEEL',
     'Meta Apes Peel',
     'https://metaapesgame.com/',
+  ),
+}
+
+export const opbnbTestnetTokens = {
+  wbnb: BUSD_OPBNBTESTNET,
+  venos: new Token(
+    ChainId.OPBNB_TESTNET,
+    '0x752982a24C733c5ac62EfB6979Bd1927993f0ab8',
+    18,
+    'tVenos',
+    'Venos Testnet Token',
+    'https://venosproject.com',
+  ),
+  busd: new Token(
+    ChainId.OPBNB_TESTNET,
+    '0x3d39133b8050611f76d039395d5d8d9a8cf1135c',
+    18,
+    'BUSD',
+    'Binance USD',
+    'https://opbnbscan.com',
   ),
 }
 

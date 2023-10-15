@@ -51,7 +51,7 @@ const PerpetualBanner = () => {
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
-                {t('Apply Now')}
+                {t('Apply Nows')}
               </Text>
               <ArrowForwardIcon color="invertedContrast" />
             </Button>

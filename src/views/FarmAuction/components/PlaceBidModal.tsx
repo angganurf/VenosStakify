@@ -141,7 +141,7 @@ const PlaceBidModal: React.FC<PlaceBidModalProps> = ({
       <ExistingInfo>
         <Flex justifyContent="space-between">
           <Text>{t('Your existing bid')}</Text>
-          <Text>{t('%num% CAKE', { num: getBalanceNumber(amount).toLocaleString() })}</Text>
+          <Text>{t('%num% VENOS', { num: getBalanceNumber(amount).toLocaleString() })}</Text>
         </Flex>
         <Flex justifyContent="space-between">
           <Text>{t('Your position')}</Text>

@@ -46,9 +46,10 @@ const config: (
           href: '/swap',
         },
         {
-          label: t('Core Sales'),
+          label: t('opBNB Sales'),
           href: '/limit-orders',
           supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
+          disabled: true,
         },
         {
           label: t('Liquidity'),
@@ -56,9 +57,7 @@ const config: (
         },
         {
           label: t('Bridge'),
-          href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
-            isDark,
-          )}`,
+          href: `https://opbnb-bridge.bnbchain.org/`,
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         // {
@@ -140,7 +139,8 @@ const config: (
       items: [
         {
           label: t('Info'),
-          href: '/info',
+          href: '#', // /info
+          disabled: true,
         },
         // {
         //   label: t('IFO'),
@@ -158,12 +158,12 @@ const config: (
         },
         {
           label: t('Blog'),
-          href: 'https://medium.com/shadowswap',
+          href: 'https://medium.com/venosproject',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
           label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          href: 'https://docs.venosproject.com',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ],

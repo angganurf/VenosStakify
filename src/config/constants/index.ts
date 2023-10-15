@@ -1,11 +1,12 @@
 // used to construct the list of all pairs we consider by default in the frontend
 import { ChainId, Token } from '@pancakeswap/sdk'
-import { bscTokens, bscTestnetTokens } from './tokens'
+import { bscTokens, bscTestnetTokens, opbnbTestnetTokens } from './tokens'
 import { ChainTokenList } from './types'
 
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt],
   [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -48,4 +49,4 @@ export const PREDICTION_TOOLTIP_DISMISS_KEY = 'prediction-switcher-dismiss-toolt
 // Gelato uses this address to define a native currency in all chains
 export const GELATO_NATIVE = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
 
-export const EXCHANGE_DOCS_URLS = 'https://docs.pancakeswap.finance/products/pancakeswap-exchange'
+export const EXCHANGE_DOCS_URLS = 'https://docs.venosproject.com/products/pancakeswap-exchange'

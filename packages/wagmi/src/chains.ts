@@ -124,6 +124,29 @@ export const bscTest: Chain = {
   testnet: true,
 }
 
+export const opbnbTest: Chain = {
+  id: 5611,
+  name: 'opBNB TestNet',
+  network: 'opbnb-testnet',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'tBNB',
+    symbol: 'tBNB',
+  },
+  rpcUrls: {
+    default: 'https://opbnb-testnet-rpc.bnbchain.org/',
+    public: 'https://opbnb-testnet-rpc.bnbchain.org',
+  },
+  blockExplorers: {
+    default: { name: 'opbnbscan', url: 'https://testnet.opbnbscan.com' },
+  },
+  multicall: {
+    address: '0x48ae351b88faB4a7A6d9f015883a5CDfa29eE1f7',
+    blockCreated: 10056498,
+  },
+  testnet: true,
+}
+
 export const CHAINS_TESTNET = [
   bscTest,
   rinkeby,
@@ -132,6 +155,7 @@ export const CHAINS_TESTNET = [
   polygonMumbai,
   avalandcheFuji,
   fantomTestnet,
+  opbnbTest,
 ]
 
 export const CHAINS_STARGATE_TESTNET = [

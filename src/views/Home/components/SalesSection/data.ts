@@ -11,7 +11,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: 'https://docs.venosproject.com/',
     text: t('Learn'),
     external: true,
   },
@@ -27,7 +27,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
 
 export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Earn passive income with your crypto.'),
-  bodyText: t('ShadowSwap makes it easy to make your crypto work for you. Let your Shadows work for you.'),
+  bodyText: t('Venos Stakify makes it easy to make your crypto work for you. Let your Shadows work for you.'),
   reverse: true,
   primaryButton: {
     to: '/farms',
@@ -35,7 +35,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/products/yield-farming',
+    to: 'https://docs.venosproject.com/products/yield-farming',
     text: t('Learn'),
     external: true,
   },
@@ -46,18 +46,18 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('Cast Your Shadow on your Finances.'),
+  headingText: t('Cast Your Venos on your Finances.'),
   bodyText: t(
-    'Shadow token is at the heart of the ShadowSwap ecosystem. Buy it, win it, farm it, spend it, stake it, or even vote with it!',
+    'Venos token is at the heart of the Vebis Stakify ecosystem. Buy it, win it, farm it, spend it, stake it, or even vote with it!',
   ),
   reverse: false,
   primaryButton: {
     to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-    text: t('Buy SHDW'),
+    text: t('Buy VENOS'),
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/tokenomics/cake',
+    to: 'https://docs.venosproject.com/tokenomics/cake',
     text: t('Learn'),
     external: true,
   },

@@ -8,19 +8,19 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.venosproject.com/contact-us",
       },
       {
         label: "Blog",
-        href: "https://medium.com/pancakeswap",
+        href: "https://medium.com/venosproject",
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://docs.venosproject.com/contact-us/telegram",
       },
       {
         label: "SHDW",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        href: "https://docs.venosproject.com/tokenomics/cake",
       },
     ],
   },
@@ -29,15 +29,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "Support https://docs.venosproject.com/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://docs.venosproject.com/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
+        href: "https://docs.venosproject.com/get-started",
       },
     ],
   },
@@ -46,23 +46,23 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/venosproject",
       },
       {
         label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.venosproject.com",
       },
       {
         label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+        href: "https://app.gitbook.com/@venosproject-1/s/VenosStakify/code/bug-bounty",
       },
       {
         label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.venosproject.com/help/faq#is-venosstakify-safe-has-venosstakify-been-audited",
       },
       {
         label: "Sverse Lab",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "https://docs.venosproject.com/hiring/become-a-chef",
       },
     ],
   },
@@ -72,7 +72,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/venosproject",
   },
   {
     label: "Telegram",
@@ -80,90 +80,90 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/pancakeswap",
+        href: "https://t.me/venosproject",
       },
       {
         label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
+        href: "https://t.me/VenosStakifyIndonesia",
       },
       {
         label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
+        href: "https://t.me/VenosProject_CN",
       },
       {
         label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
+        href: "https://t.me/VenosStakifyVN",
       },
       {
         label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
+        href: "https://t.me/VenosProject_ita",
       },
       {
         label: "русский",
-        href: "https://t.me/pancakeswap_ru",
+        href: "https://t.me/VenosProject_ru",
       },
       {
         label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
+        href: "https://t.me/VenosStakifyturkiye",
       },
       {
         label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
+        href: "https://t.me/VenosStakifyPortuguese",
       },
       {
         label: "Español",
-        href: "https://t.me/PancakeswapEs",
+        href: "https://t.me/VenosStakifyEs",
       },
       {
         label: "日本語",
-        href: "https://t.me/pancakeswapjp",
+        href: "https://t.me/venosprojectjp",
       },
       {
         label: "Français",
-        href: "https://t.me/pancakeswapfr",
+        href: "https://t.me/VenosStakifyfr",
       },
       {
         label: "Deutsch",
-        href: "https://t.me/PancakeSwap_DE",
+        href: "https://t.me/VenosProject_DE",
       },
       {
         label: "Filipino",
-        href: "https://t.me/Pancakeswap_Ph",
+        href: "https://t.me/VenosProject_Ph",
       },
       {
         label: "ქართული ენა",
-        href: "https://t.me/PancakeSwapGeorgia",
+        href: "https://t.me/VenosStakifyGeorgia",
       },
       {
         label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
+        href: "https://t.me/VenosStakifyAnn",
       },
     ],
   },
   {
     label: "Reddit",
     icon: RedditIcon,
-    href: "https://reddit.com/r/pancakeswap",
+    href: "https://reddit.com/r/venosproject",
   },
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "https://instagram.com/pancakeswap_official",
+    href: "https://instagram.com/VenosProject_official",
   },
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/VenosProject/",
   },
   {
     label: "Discord",
     icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    href: "https://discord.gg/venosproject",
   },
   {
     label: "Medium",
     icon: MediumIcon,
-    href: "https://medium.com/pancakeswap",
+    href: "https://medium.com/venosproject",
   },
 ];
 

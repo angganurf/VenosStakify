@@ -32,7 +32,7 @@ const CakeVaultApr: React.FC<CakeVaultAprProps> = ({ pool, userData, vaultPositi
       <Box marginX="8px" mb="8px">
         <Flex justifyContent="space-between">
           <Text fontSize="16px" color="textSubtle" textAlign="left">
-            {t('Flexible APY')}
+            {t('Flexibles APY')}
           </Text>
           {flexibleApy ? (
             <Flex alignItems="center" justifyContent="flex-start">

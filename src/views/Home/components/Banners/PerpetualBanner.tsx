@@ -46,9 +46,9 @@ const PerpetualBanner = () => {
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <S.StyledSubheading>{t('SVerse Lab')}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{t('ShadowSwap Powered by SVerse Lab')}</Header>
-          <Link href={perpetualUrl} external>
+          <S.StyledSubheading>{t('Fs Lab')}</S.StyledSubheading>
+          <Header width={['160px', '160px', 'auto']}>{t('Venos Stakify Powered by Fs Lab')}</Header>
+          <Link href="#">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
                 {t('Learn More Now')}

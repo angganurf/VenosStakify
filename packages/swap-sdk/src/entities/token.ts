@@ -101,6 +101,14 @@ export const WtCORE = {
     'Wrapped tCORE',
     'https://www.coredao.org'
   ),
+  [ChainId.OPBNB_TESTNET]: new Token(
+    ChainId.OPBNB_TESTNET,
+    '0x4200000000000000000000000000000000000006',
+    18,
+    'WBNB',
+    'Wrapped BNB',
+    'https://www.binance.org'
+  ),
 }
 
 export const WNATIVE = {
@@ -108,4 +116,5 @@ export const WNATIVE = {
   // [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY],
   [ChainId.BSC]: WtCORE[ChainId.BSC],
   [ChainId.BSC_TESTNET]: WtCORE[ChainId.BSC_TESTNET],
+  [ChainId.OPBNB_TESTNET]: WtCORE[ChainId.OPBNB_TESTNET],
 }
