@@ -12,7 +12,7 @@ import {
   Text,
   Box,
   ThemeSwitcher,
-} from '@pancakeswap/uikit'
+} from '../../../packages/uikit'
 import Image from 'next/future/image'
 import NextLink from 'next/link'
 import { useCallback } from 'react'

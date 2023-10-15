@@ -37,11 +37,6 @@ const PerpetualBanner = () => {
   const { isDesktop } = useMatchBreakpointsContext()
   const { isDark } = useTheme()
 
-  const perpetualUrl = useMemo(
-    () => `https://perp.pancakeswap.finance/${perpLangMap(code)}/futures/BTCUSDT?theme=${perpTheme(isDark)}`,
-    [code, isDark],
-  )
-
   return (
     <S.Wrapper>
       <S.Inner>

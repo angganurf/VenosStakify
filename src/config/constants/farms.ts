@@ -1,5 +1,5 @@
 import { serializeTokens } from 'utils/serializeTokens'
-import { bscTokens, opbnbTestnetTokens } from './tokens'
+import { bscTokens } from './tokens' //add opbnbTestnetTokens
 import { SerializedFarmConfig } from './types'
 
 const serializedTokens = serializeTokens(bscTokens)
