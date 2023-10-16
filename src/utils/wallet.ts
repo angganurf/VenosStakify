@@ -8,12 +8,12 @@ import { BSC_RPC_URLS, BSC_TESTNET_RPC_URLS } from '../config/constants/rpc'
 
 const NETWORK_CONFIG = {
   [ChainId.BSC]: {
-    name: 'BNB Smart Chain Mainnet',
+    name: 'opBNB Mainnet',
     scanURL: BASE_BSC_SCAN_URLS[ChainId.BSC],
     rpcUrls: BSC_RPC_URLS,
   },
   [ChainId.BSC_TESTNET]: {
-    name: 'BNB Smart Chain Testnet',
+    name: 'opBNB Testnet',
     scanURL: BASE_BSC_SCAN_URLS[ChainId.BSC_TESTNET],
     rpcUrls: BSC_TESTNET_RPC_URLS,
   },
