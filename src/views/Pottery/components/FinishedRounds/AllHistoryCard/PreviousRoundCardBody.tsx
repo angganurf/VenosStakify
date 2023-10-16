@@ -124,7 +124,7 @@ const PreviousRoundCardBody: React.FC<PreviousRoundCardBodyProps> = ({ latestRou
             m={['10px auto auto auto', '10px auto auto auto', 'auto 0 0 auto']}
             href={getBscScanLink(txid, 'transaction')}
           >
-            {t('View on BscScan')}
+            {t('View on opBNBScan')}
           </LinkExternal>
         </Flex>
       </Flex>

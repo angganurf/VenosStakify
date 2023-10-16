@@ -76,15 +76,15 @@ export const fantomTestnet: Chain = {
   testnet: true,
 }
 
-const bscExplorer = { name: 'BscScan', url: 'https://bscscan.com' }
+const bscExplorer = { name: 'BscScan', url: 'https://opbnbscan.com' }
 
 export const bsc: Chain = {
   id: 56,
-  name: 'Core Chain Mainet',
+  name: 'opBNB Mainnet',
   network: 'bsc',
   rpcUrls: {
-    default: 'https://binance.nodereal.io',
-    public: 'https://binance.nodereal.io',
+    default: 'https://opbnb-mainnet-rpc.bnbchain.org',
+    public: 'https://opbnb-mainnet-rpc.bnbchain.org',
   },
   blockExplorers: {
     default: bscExplorer,
@@ -103,30 +103,7 @@ export const bsc: Chain = {
 
 export const bscTest: Chain = {
   id: 1115,
-  name: 'Core Chain TestNet',
-  network: 'core-testnet',
-  nativeCurrency: {
-    decimals: 18,
-    name: 'tCORE',
-    symbol: 'tCORE',
-  },
-  rpcUrls: {
-    default: 'https://rpc.test.btcs.network/',
-    public: 'https://rpc.test.btcs.network/',
-  },
-  blockExplorers: {
-    default: { name: 'CoreScan', url: 'https://scan.test.btcs.network' },
-  },
-  multicall: {
-    address: '0x003597582077c6547E35672901BA2BFa6c8CE87D',
-    blockCreated: 1134339,
-  },
-  testnet: true,
-}
-
-export const opbnbTest: Chain = {
-  id: 5611,
-  name: 'opBNB TestNet',
+  name: 'opBNB Testnet',
   network: 'opbnb-testnet',
   nativeCurrency: {
     decimals: 18,
@@ -135,10 +112,10 @@ export const opbnbTest: Chain = {
   },
   rpcUrls: {
     default: 'https://opbnb-testnet-rpc.bnbchain.org/',
-    public: 'https://opbnb-testnet-rpc.bnbchain.org',
+    public: 'https://opbnb-testnet-rpc.bnbchain.org/',
   },
   blockExplorers: {
-    default: { name: 'opbnbscan', url: 'https://testnet.opbnbscan.com' },
+    default: { name: 'CoreScan', url: 'https://testnet.opbnbscan.com' },
   },
   multicall: {
     address: '0x48ae351b88faB4a7A6d9f015883a5CDfa29eE1f7',
@@ -146,6 +123,29 @@ export const opbnbTest: Chain = {
   },
   testnet: true,
 }
+
+// export const opbnbTest: Chain = {
+//   id: 5611,
+//   name: 'opBNB TestNet',
+//   network: 'opbnb-testnet',
+//   nativeCurrency: {
+//     decimals: 18,
+//     name: 'tBNB',
+//     symbol: 'tBNB',
+//   },
+//   rpcUrls: {
+//     default: 'https://opbnb-testnet-rpc.bnbchain.org/',
+//     public: 'https://opbnb-testnet-rpc.bnbchain.org',
+//   },
+//   blockExplorers: {
+//     default: { name: 'opbnbscan', url: 'https://testnet.opbnbscan.com' },
+//   },
+//   multicall: {
+//     address: '0x48ae351b88faB4a7A6d9f015883a5CDfa29eE1f7',
+//     blockCreated: 10056498,
+//   },
+//   testnet: true,
+// }
 
 export const CHAINS_TESTNET = [
   bscTest,
@@ -155,7 +155,6 @@ export const CHAINS_TESTNET = [
   polygonMumbai,
   avalandcheFuji,
   fantomTestnet,
-  opbnbTest,
 ]
 
 export const CHAINS_STARGATE_TESTNET = [
@@ -167,4 +166,4 @@ export const CHAINS_STARGATE_TESTNET = [
   fantomTestnet,
 ]
 
-export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche]
+export const CHAINS = [bsc, bscTest, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche]
