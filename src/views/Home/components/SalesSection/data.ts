@@ -3,7 +3,7 @@ import { SalesSectionProps } from '.'
 
 export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Trade anything. With Fast, Secure Network.'),
-  bodyText: t('Trade any token on Core Chain in seconds, just by connecting your wallet.'),
+  bodyText: t('Trade any token on opBNB Chain in seconds, just by connecting your wallet.'),
   reverse: false,
   primaryButton: {
     to: '/swap',
@@ -20,14 +20,14 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'BNB', alt: t('BNB token') },
       { src: 'BTC', alt: t('BTC token') },
-      { src: 'CAKE', alt: t('CAKE token') },
+      { src: 'CAKE', alt: t('VENOS token') },
     ],
   },
 })
 
 export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Earn passive income with your crypto.'),
-  bodyText: t('Venos Stakify makes it easy to make your crypto work for you. Let your Shadows work for you.'),
+  bodyText: t('Venos Stakify makes it easy to make your crypto work for you. Let your Venos work for you.'),
   reverse: true,
   primaryButton: {
     to: '/farms',

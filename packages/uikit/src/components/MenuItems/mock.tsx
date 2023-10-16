@@ -7,7 +7,7 @@ const MenuItemsMock = [
     items: ItemsMock,
   },
   {
-    label: "Earn",
+    label: "Staking",
     href: "/",
     items: ItemsMock,
   },

@@ -54,7 +54,7 @@ const Home: React.FC = () => {
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
           theme.isDark
-            ? 'radial-gradient(103.12% 50% at 50% 50%, #21193A 0%, #191326 100%)'
+            ? 'radial-gradient(103.12% 50% at 50% 50%, #08091B 0%, #08091B 100%)'
             : 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)'
         }
         index={2}

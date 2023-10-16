@@ -67,7 +67,7 @@ const config: (
       ].filter((item) => filterItemBySupportChainId(item, chainId)),
     },
     {
-      label: t('Earn'),
+      label: t('Staking'),
       href: '/farms',
       icon: EarnIcon,
       fillIcon: EarnFillIcon,

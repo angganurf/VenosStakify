@@ -14,7 +14,7 @@ import { MENU_HEIGHT, MOBILE_MENU_HEIGHT, TOP_BANNER_HEIGHT, TOP_BANNER_HEIGHT_M
 import { NavProps } from "./types";
 import LangSelector from "../../components/LangSelector/LangSelector";
 import { MenuContext } from "./context";
-import { ThemeSwitcher } from "../../components/ThemeSwitcher";
+// import { ThemeSwitcher } from "../../components/ThemeSwitcher";
 
 const Wrapper = styled.div`
   position: relative;
@@ -141,9 +141,9 @@ const Menu: React.FC<NavProps> = ({
                   <CakePrice showSkeleton={false} cakePriceUsd={cakePriceUsd} />
                 </Box>
               )}
-              <Box mr="12px">
+              {/* <Box mr="12px">
                 <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-              </Box>
+              </Box> */}
               <Box mt="4px">
                 <LangSelector
                   currentLang={currentLang}

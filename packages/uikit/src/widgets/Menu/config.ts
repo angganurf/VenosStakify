@@ -51,13 +51,13 @@ export const links: MenuItemsType[] = [
     ],
   },
   {
-    label: "Earn",
+    label: "Staking",
     href: "/earn",
     icon: EarnIcon,
     fillIcon: EarnFillIcon,
     items: [
       {
-        label: "Earn",
+        label: "Staking",
         href: "/earn",
       },
       {

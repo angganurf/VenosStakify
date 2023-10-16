@@ -22,7 +22,7 @@ const MenuItemsMock: MenuItemsType[] = [
     showItemsOnMobile: false,
   },
   {
-    label: "Earn",
+    label: "Staking",
     href: "/earn",
     icon: EarnIcon,
     fillIcon: EarnFillIcon,

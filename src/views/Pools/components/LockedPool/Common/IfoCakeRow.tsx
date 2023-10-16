@@ -21,14 +21,14 @@ const IfoCakeRow: React.FC = () => {
     <Box>
       <Text>
         {t(
-          'The number of iCAKE equals the locked staking amount if the staking duration is longer than %weeks% weeks. If the staking duration is less than %weeks% weeks, it will linearly decrease based on the staking duration.',
+          'The number of iVENOS equals the locked staking amount if the staking duration is longer than %weeks% weeks. If the staking duration is less than %weeks% weeks, it will linearly decrease based on the staking duration.',
           {
             weeks: weeksDisplay,
           },
         )}
       </Text>
       <InlineLink external href="https://docs.venosproject.com/products/ifo-initial-farm-offering/icake">
-        {t('Learn more about iCAKE')}
+        {t('Learn more about iVENOS')}
       </InlineLink>
     </Box>,
     {
@@ -41,7 +41,7 @@ const IfoCakeRow: React.FC = () => {
       {tooltipVisible && tooltip}
       <TooltipText>
         <Text ref={targetRef} color="textSubtle" bold fontSize="12px">
-          {t('iCAKE')}
+          {t('iVENOS')}
         </Text>
       </TooltipText>
       <BalanceWithLoading color="text" bold fontSize="16px" decimals={3} value={getBalanceNumber(credit)} />
