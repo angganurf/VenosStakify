@@ -34,19 +34,19 @@ const BannerPlaceHolder = styled.div<{ walletConnected: boolean }>`
       bottom: 20px;
     }
   }
-  margin-top: ${({ walletConnected }) => (walletConnected ? '220px' : '0px')};
+  margin-top: ${({ walletConnected }) => (walletConnected ? '0px' : '0px')};
   margin-bottom: ${({ walletConnected }) => (walletConnected ? '-220px' : '0px')};
   ${({ theme }) => theme.mediaQueries.sm} {
-    margin-top: ${({ walletConnected }) => (walletConnected ? '190px' : '-32px')};
+    margin-top: ${({ walletConnected }) => (walletConnected ? '-25px' : '-32px')};
     margin-bottom: 30px;
   }
   ${({ theme }) => theme.mediaQueries.md} {
-    margin-top: ${({ walletConnected }) => (walletConnected ? '90px' : '-32px')};
+    margin-top: ${({ walletConnected }) => (walletConnected ? '-25px' : '-32px')};
     margin-bottom: ${({ walletConnected }) => (walletConnected ? '40px' : '30px')};
   }
   ${({ theme }) => theme.mediaQueries.lg},${({ theme }) => theme.mediaQueries.md} {
     padding-top: 0;
-    margin-top: ${({ walletConnected }) => (walletConnected ? '60px' : '-32px')};
+    margin-top: ${({ walletConnected }) => (walletConnected ? '-21px' : '-32px')};
     margin-bottom: ${({ walletConnected }) => (walletConnected ? '60px' : '30px')};
   }
 `

@@ -1,12 +1,11 @@
 import { ChainId, JSBI, Percent, Token } from '@pancakeswap/sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { bscTokens, bscTestnetTokens, opbnbTestnetTokens } from './tokens'
+import { bscTokens, opbnbTestnetTokens } from './tokens'
 import { ChainTokenList } from './types'
 
 export const ROUTER_ADDRESS = {
   [ChainId.BSC]: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
-  [ChainId.BSC_TESTNET]: '0x5AeB8c29ff7D98c9eef21067efA8a65BFa29b9E1',
-  [ChainId.OPBNB_TESTNET]: '0x5AeB8c29ff7D98c9eef21067efA8a65BFa29b9E1',
+  [ChainId.BSC_TESTNET]: '0xc78e07E8550821078835c6723307742715e62edA',
 }
 
 // used to construct intermediary pairs for trading
@@ -20,8 +19,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     bscTokens.eth,
     bscTokens.usdc,
   ],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
-  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
+  [ChainId.BSC_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.cake, opbnbTestnetTokens.busd],
 }
 
 /**
@@ -44,15 +42,13 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.busd, bscTokens.cake, bscTokens.btcb],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
-  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
+  [ChainId.BSC_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.cake, opbnbTestnetTokens.busd],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
-  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
+  [ChainId.BSC_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.cake, opbnbTestnetTokens.busd],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {

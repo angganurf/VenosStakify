@@ -104,7 +104,7 @@ const Pot: React.FC = () => {
                 <CardHeader
                   title="Pottery"
                   subTitle="Stake Venos, Earn VENOS, Win VENOS"
-                  primarySrc="/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.svg"
+                  primarySrc="/images/tokens/0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC.svg"
                   secondarySrc="/images/tokens/pot-icon.svg"
                 />
                 {activeTab === POT_CATEGORY.Deposit ? <Deposit /> : <Claim />}

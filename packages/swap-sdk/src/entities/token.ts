@@ -84,7 +84,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 //   )
 // }
 
-export const WtCORE = {
+export const WBNB = {
   [ChainId.BSC]: new Token(
     ChainId.BSC,
     '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
@@ -95,26 +95,17 @@ export const WtCORE = {
   ),
   [ChainId.BSC_TESTNET]: new Token(
     ChainId.BSC_TESTNET,
-    '0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf',
-    18,
-    'WtCORE',
-    'Wrapped tCORE',
-    'https://www.coredao.org'
-  ),
-  [ChainId.OPBNB_TESTNET]: new Token(
-    ChainId.OPBNB_TESTNET,
     '0x4200000000000000000000000000000000000006',
     18,
     'WBNB',
     'Wrapped BNB',
-    'https://www.binance.org'
+    'https://opbnb.bnbchain.org/'
   ),
 }
 
 export const WNATIVE = {
   // [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM],
   // [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY],
-  [ChainId.BSC]: WtCORE[ChainId.BSC],
-  [ChainId.BSC_TESTNET]: WtCORE[ChainId.BSC_TESTNET],
-  [ChainId.OPBNB_TESTNET]: WtCORE[ChainId.OPBNB_TESTNET],
+  [ChainId.BSC]: WBNB[ChainId.BSC],
+  [ChainId.BSC_TESTNET]: WBNB[ChainId.BSC_TESTNET],
 }

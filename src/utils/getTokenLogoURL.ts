@@ -1,4 +1,3 @@
-const getTokenLogoURL = (address: string) =>
-  `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${address}/logo.png`
+const getTokenLogoURL = (address: string) => `/images/tokens/${address}.svg`
 
 export default getTokenLogoURL

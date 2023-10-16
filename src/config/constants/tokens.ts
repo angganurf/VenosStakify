@@ -1,21 +1,21 @@
-import { ChainId, Token, WtCORE } from '@pancakeswap/sdk'
+import { ChainId, Token, WBNB } from '@pancakeswap/sdk'
 
 const CAKE_MAINNET = new Token(
   ChainId.BSC,
-  '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  '0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC',
   18,
   'VENOS',
-  'Venos Token',
+  'Venos Stakify',
   'https://venosproject.com/',
 )
 
 const CAKE_TESTNET = new Token(
   ChainId.BSC_TESTNET,
-  '0xa48496B0a392007eA9E0354cc804D98444Ecc227',
+  '0x752982a24C733c5ac62EfB6979Bd1927993f0ab8',
   18,
-  'SHDW',
-  'Venos Stakify Token',
-  'https://pancakeswap.finance/',
+  'tVENOS',
+  'Venos Testnet Token',
+  'https://venosproject.com/',
 )
 
 const USDC_BSC = new Token(
@@ -57,30 +57,20 @@ const BUSD_MAINNET = new Token(
 
 const BUSD_TESTNET = new Token(
   ChainId.BSC_TESTNET,
-  '0xD874e58641862aFA37d5d1169D86C4fca465f3B2',
+  '0x3d39133b8050611f76d039395d5d8d9a8cf1135c',
   18,
   'BUSD',
   'Binance USD',
   'https://www.paxos.com/busd/',
 )
 
-const BUSD_OPBNBTESTNET = new Token(
-  ChainId.OPBNB_TESTNET,
-  '0x4200000000000000000000000000000000000006',
-  18,
-  'BUSD',
-  'Binance USD',
-  'https://www.OPBNB.com/busd/',
-)
-
 export const BUSD: Record<ChainId, Token> = {
   [ChainId.BSC]: BUSD_MAINNET,
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
-  [ChainId.OPBNB_TESTNET]: BUSD_OPBNBTESTNET,
 }
 
 export const bscTokens = {
-  wbnb: WtCORE[ChainId.BSC],
+  wbnb: WBNB[ChainId.BSC],
   // bnb here points to the wbnb contract. Wherever the currency BNB is required, conditional checks for the symbol 'BNB' can be used
   bnb: new Token(
     ChainId.BSC,
@@ -166,6 +156,7 @@ export const bscTokens = {
     'Tether USD',
     'https://tether.to/',
   ),
+
   btcb: new Token(
     ChainId.BSC,
     '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
@@ -2343,36 +2334,16 @@ export const bscTokens = {
 }
 
 export const opbnbTestnetTokens = {
-  wbnb: BUSD_OPBNBTESTNET,
-  venos: new Token(
-    ChainId.OPBNB_TESTNET,
-    '0x752982a24C733c5ac62EfB6979Bd1927993f0ab8',
-    18,
-    'tVenos',
-    'Venos Testnet Token',
-    'https://venosproject.com',
-  ),
-  busd: new Token(
-    ChainId.OPBNB_TESTNET,
-    '0x3d39133b8050611f76d039395d5d8d9a8cf1135c',
-    18,
-    'BUSD',
-    'Binance USD',
-    'https://opbnbscan.com',
-  ),
-}
-
-export const bscTestnetTokens = {
-  wbnb: WtCORE[ChainId.BSC_TESTNET],
+  wbnb: WBNB[ChainId.BSC_TESTNET],
   cake: CAKE_TESTNET,
   busd: BUSD_TESTNET,
   syrup: new Token(
     ChainId.BSC_TESTNET,
-    '0xb4e4127551265ff0f3b6C98e591520E6eEff3F39',
+    '0xAd18BdB271073aE3E7c553dfe527bcB8089DD4C3',
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://venosproject.com/',
   ),
   bake: new Token(
     ChainId.BSC_TESTNET,
@@ -2406,12 +2377,12 @@ export const bscTestnetTokens = {
     'sUSDT Token',
     'https://www.sUSDT.org/',
   ),
-  WtCORE: new Token(
+  WBNB: new Token(
     ChainId.BSC_TESTNET,
-    '0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf',
+    '0x4200000000000000000000000000000000000006',
     18,
-    'WtCORE',
-    'WtCORE Token',
+    'WBNB',
+    'WBNB Token',
     'https://www.coredao.org/',
   ),
 }

@@ -12,14 +12,14 @@ import SalesSection from './components/SalesSection'
 import FarmsPoolsRow from './components/FarmsPoolsRow'
 import CakeDataRow from './components/CakeDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
-import UserBanner from './components/UserBanner'
+// import UserBanner from './components/UserBanner'
 import MultipleBanner from './components/Banners/MultipleBanner'
 
 const StyledHeroSection = styled(PageSection)`
-  padding-top: 16px;
+  padding-top: 0px;
 
   ${({ theme }) => theme.mediaQueries.md} {
-    padding-top: 48px;
+    padding-top: 0px;
   }
 `
 
@@ -60,11 +60,11 @@ const Home: React.FC = () => {
         index={2}
         hasCurvedDivider={false}
       >
-        {account && (
+        {/* {account && (
           <UserBannerWrapper>
             <UserBanner />
           </UserBannerWrapper>
-        )}
+        )} */}
         <MultipleBanner />
         <Hero />
       </StyledHeroSection>

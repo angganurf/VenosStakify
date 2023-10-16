@@ -102,7 +102,7 @@ export const bsc: Chain = {
 }
 
 export const bscTest: Chain = {
-  id: 1115,
+  id: 5611,
   name: 'opBNB Testnet',
   network: 'opbnb-testnet',
   nativeCurrency: {
@@ -115,7 +115,7 @@ export const bscTest: Chain = {
     public: 'https://opbnb-testnet-rpc.bnbchain.org/',
   },
   blockExplorers: {
-    default: { name: 'CoreScan', url: 'https://testnet.opbnbscan.com' },
+    default: { name: 'opBNBScan', url: 'https://testnet.opbnbscan.com' },
   },
   multicall: {
     address: '0x48ae351b88faB4a7A6d9f015883a5CDfa29eE1f7',

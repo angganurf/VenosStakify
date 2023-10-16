@@ -15,7 +15,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "WBNB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "Venos Stakify Token",
@@ -33,7 +33,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "WBNB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "Venos Stakify Token",
@@ -133,7 +133,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "Venos Stakify Token",
@@ -151,7 +151,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -169,7 +169,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -187,7 +187,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -205,7 +205,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -223,7 +223,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -249,7 +249,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "WBNB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -349,7 +349,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -367,7 +367,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -385,7 +385,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -403,7 +403,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -421,7 +421,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -439,7 +439,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -483,7 +483,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "BUSD",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -591,7 +591,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "USDT",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -699,7 +699,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "BTCB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -807,7 +807,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "ETH",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -915,7 +915,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "symbol": "USDC",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1016,7 +1016,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "tokenAmounts": Array [
               TokenAmount {
                 "currency": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -1031,72 +1031,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
                   1,
                 ],
                 "token": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "PancakeSwap Token",
-                  "projectLink": "https://pancakeswap.finance/",
-                  "symbol": "CAKE",
-                },
-              },
-              TokenAmount {
-                "currency": Token {
-                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "Wrapped BNB",
-                  "projectLink": "https://www.binance.org",
-                  "symbol": "WBNB",
-                },
-                "denominator": JSBI [
-                  660865024,
-                  931322574,
-                ],
-                "numerator": JSBI [
-                  1,
-                ],
-                "token": Token {
-                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "Wrapped BNB",
-                  "projectLink": "https://www.binance.org",
-                  "symbol": "WBNB",
-                },
-              },
-            ],
-          },
-        ],
-        Array [
-          2,
-          Pair {
-            "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
-              "chainId": 56,
-              "decimals": 18,
-              "name": "Pancake LPs",
-              "projectLink": undefined,
-              "symbol": "Cake-LP",
-            },
-            "tokenAmounts": Array [
-              TokenAmount {
-                "currency": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "PancakeSwap Token",
-                  "projectLink": "https://pancakeswap.finance/",
-                  "symbol": "CAKE",
-                },
-                "denominator": JSBI [
-                  660865024,
-                  931322574,
-                ],
-                "numerator": JSBI [
-                  1,
-                ],
-                "token": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -1146,7 +1081,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
             "tokenAmounts": Array [
               TokenAmount {
                 "currency": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -1161,7 +1096,72 @@ exports[`Trade #useAllCommonPairs should get all pair combinations wbnb, cake 1`
                   1,
                 ],
                 "token": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "PancakeSwap Token",
+                  "projectLink": "https://pancakeswap.finance/",
+                  "symbol": "CAKE",
+                },
+              },
+              TokenAmount {
+                "currency": Token {
+                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "Wrapped BNB",
+                  "projectLink": "https://www.binance.org",
+                  "symbol": "WBNB",
+                },
+                "denominator": JSBI [
+                  660865024,
+                  931322574,
+                ],
+                "numerator": JSBI [
+                  1,
+                ],
+                "token": Token {
+                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "Wrapped BNB",
+                  "projectLink": "https://www.binance.org",
+                  "symbol": "WBNB",
+                },
+              },
+            ],
+          },
+        ],
+        Array [
+          2,
+          Pair {
+            "liquidityToken": Token {
+              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "chainId": 56,
+              "decimals": 18,
+              "name": "Pancake LPs",
+              "projectLink": undefined,
+              "symbol": "Cake-LP",
+            },
+            "tokenAmounts": Array [
+              TokenAmount {
+                "currency": Token {
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "PancakeSwap Token",
+                  "projectLink": "https://pancakeswap.finance/",
+                  "symbol": "CAKE",
+                },
+                "denominator": JSBI [
+                  660865024,
+                  931322574,
+                ],
+                "numerator": JSBI [
+                  1,
+                ],
+                "token": Token {
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -1222,7 +1222,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "WBNB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1330,7 +1330,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "WBNB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1438,7 +1438,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "WBNB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1538,7 +1538,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1556,7 +1556,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1574,7 +1574,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1592,7 +1592,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1610,7 +1610,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1628,7 +1628,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
         ],
         Array [
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1672,7 +1672,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "BUSD",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1780,7 +1780,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "USDT",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1888,7 +1888,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "BTCB",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -1996,7 +1996,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "ETH",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -2104,7 +2104,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "symbol": "USDC",
           },
           Token {
-            "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
             "chainId": 56,
             "decimals": 18,
             "name": "PancakeSwap Token",
@@ -2205,7 +2205,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "tokenAmounts": Array [
               TokenAmount {
                 "currency": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -2220,72 +2220,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
                   1,
                 ],
                 "token": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "PancakeSwap Token",
-                  "projectLink": "https://pancakeswap.finance/",
-                  "symbol": "CAKE",
-                },
-              },
-              TokenAmount {
-                "currency": Token {
-                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "Wrapped BNB",
-                  "projectLink": "https://www.binance.org",
-                  "symbol": "WBNB",
-                },
-                "denominator": JSBI [
-                  660865024,
-                  931322574,
-                ],
-                "numerator": JSBI [
-                  1,
-                ],
-                "token": Token {
-                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "Wrapped BNB",
-                  "projectLink": "https://www.binance.org",
-                  "symbol": "WBNB",
-                },
-              },
-            ],
-          },
-        ],
-        Array [
-          2,
-          Pair {
-            "liquidityToken": Token {
-              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
-              "chainId": 56,
-              "decimals": 18,
-              "name": "Pancake LPs",
-              "projectLink": undefined,
-              "symbol": "Cake-LP",
-            },
-            "tokenAmounts": Array [
-              TokenAmount {
-                "currency": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-                  "chainId": 56,
-                  "decimals": 18,
-                  "name": "PancakeSwap Token",
-                  "projectLink": "https://pancakeswap.finance/",
-                  "symbol": "CAKE",
-                },
-                "denominator": JSBI [
-                  660865024,
-                  931322574,
-                ],
-                "numerator": JSBI [
-                  1,
-                ],
-                "token": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -2335,7 +2270,7 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
             "tokenAmounts": Array [
               TokenAmount {
                 "currency": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",
@@ -2350,7 +2285,72 @@ exports[`Trade #useAllCommonPairs should get all pair combinations, wbnb, wbnb 1
                   1,
                 ],
                 "token": Token {
-                  "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "PancakeSwap Token",
+                  "projectLink": "https://pancakeswap.finance/",
+                  "symbol": "CAKE",
+                },
+              },
+              TokenAmount {
+                "currency": Token {
+                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "Wrapped BNB",
+                  "projectLink": "https://www.binance.org",
+                  "symbol": "WBNB",
+                },
+                "denominator": JSBI [
+                  660865024,
+                  931322574,
+                ],
+                "numerator": JSBI [
+                  1,
+                ],
+                "token": Token {
+                  "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "Wrapped BNB",
+                  "projectLink": "https://www.binance.org",
+                  "symbol": "WBNB",
+                },
+              },
+            ],
+          },
+        ],
+        Array [
+          2,
+          Pair {
+            "liquidityToken": Token {
+              "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+              "chainId": 56,
+              "decimals": 18,
+              "name": "Pancake LPs",
+              "projectLink": undefined,
+              "symbol": "Cake-LP",
+            },
+            "tokenAmounts": Array [
+              TokenAmount {
+                "currency": Token {
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
+                  "chainId": 56,
+                  "decimals": 18,
+                  "name": "PancakeSwap Token",
+                  "projectLink": "https://pancakeswap.finance/",
+                  "symbol": "CAKE",
+                },
+                "denominator": JSBI [
+                  660865024,
+                  931322574,
+                ],
+                "numerator": JSBI [
+                  1,
+                ],
+                "token": Token {
+                  "address": "0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC",
                   "chainId": 56,
                   "decimals": 18,
                   "name": "PancakeSwap Token",

@@ -1,12 +1,11 @@
 // used to construct the list of all pairs we consider by default in the frontend
 import { ChainId, Token } from '@pancakeswap/sdk'
-import { bscTokens, bscTestnetTokens, opbnbTestnetTokens } from './tokens'
+import { bscTokens, opbnbTestnetTokens } from './tokens'
 import { ChainTokenList } from './types'
 
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
-  [ChainId.OPBNB_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.venos, opbnbTestnetTokens.busd],
+  [ChainId.BSC_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.cake, opbnbTestnetTokens.busd],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
