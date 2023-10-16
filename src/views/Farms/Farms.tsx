@@ -365,10 +365,10 @@ const Farms: React.FC = ({ children }) => {
             </Flex>
           </FinishedTextContainer>
         )}
-        {viewMode === ViewMode.TABLE ? (
-          <Table farms={chosenFarmsMemoized} cakePrice={cakePrice} userDataReady={userDataReady} />
-        ) : (
+        {viewMode === ViewMode.CARD ? (
           <FlexLayout>{children}</FlexLayout>
+        ) : (
+          <Table farms={chosenFarmsMemoized} cakePrice={cakePrice} userDataReady={userDataReady} />
         )}
         {account && !userDataLoaded && stakedOnly && (
           <Flex justifyContent="center">
