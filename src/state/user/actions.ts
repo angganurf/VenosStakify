@@ -14,7 +14,7 @@ export enum FarmStakedOnly {
 
 export enum ViewMode {
   CARD = 'CARD',
-  TABLE = 'TABLE',
+  TABLE = 'CARD',
 }
 
 export enum ChartViewMode {
