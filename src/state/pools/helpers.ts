@@ -75,7 +75,7 @@ export const transformVault = (vaultKey: VaultKey, vault: SerializedCakeVault): 
     userData: {
       isLoading,
       userShares: userSharesAsString,
-      cakeAtLastUserAction: cakeAtLastUserActionAsString,
+      venosAtLastUserAction: venosAtLastUserActionAsString,
       lastDepositedTime,
       lastUserActionTime,
     },
@@ -84,7 +84,7 @@ export const transformVault = (vaultKey: VaultKey, vault: SerializedCakeVault): 
   const totalShares = totalSharesAsString ? new BigNumber(totalSharesAsString) : BIG_ZERO
   const pricePerFullShare = pricePerFullShareAsString ? new BigNumber(pricePerFullShareAsString) : BIG_ZERO
   const userShares = new BigNumber(userSharesAsString)
-  const cakeAtLastUserAction = new BigNumber(cakeAtLastUserActionAsString)
+  const venosAtLastUserAction = new BigNumber(venosAtLastUserActionAsString)
   let userDataExtra
   let publicDataExtra
   if (vaultKey === VaultKey.CakeVault) {
@@ -146,7 +146,7 @@ export const transformVault = (vaultKey: VaultKey, vault: SerializedCakeVault): 
     userData: {
       isLoading,
       userShares,
-      cakeAtLastUserAction,
+      venosAtLastUserAction,
       lastDepositedTime,
       lastUserActionTime,
       ...userDataExtra,

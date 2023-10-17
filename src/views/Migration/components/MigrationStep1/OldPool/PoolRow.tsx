@@ -59,7 +59,7 @@ const PoolRow: React.FC<PoolRowProps> = ({ pool, account }) => {
 
   const { vaultPoolData } = useVaultPoolByKeyV1(pool.vaultKey)
   const { totalCakeInVault, pricePerFullShare } = vaultPoolData
-  const { cakeAtLastUserAction, userShares } = vaultPoolData.userData
+  const { venosAtLastUserAction, userShares } = vaultPoolData.userData
 
   const vaultPools = {
     [VaultKey.CakeVaultV1]: useVaultPoolByKeyV1(VaultKey.CakeVaultV1).vaultPoolData,
@@ -74,14 +74,14 @@ const PoolRow: React.FC<PoolRowProps> = ({ pool, account }) => {
   if (pricePerFullShare) {
     const { autoCakeToDisplay } = getCakeVaultEarnings(
       account,
-      cakeAtLastUserAction,
+      venosAtLastUserAction,
       userShares,
       pricePerFullShare,
       pool.earningTokenPrice,
     )
     earningTokenBalance = autoCakeToDisplay
   }
-  const hasEarnings = account && cakeAtLastUserAction?.gt(0) && userShares?.gt(0)
+  const hasEarnings = account && venosAtLastUserAction?.gt(0) && userShares?.gt(0)
 
   const toggleExpanded = () => {
     if (!isLargerScreen) {

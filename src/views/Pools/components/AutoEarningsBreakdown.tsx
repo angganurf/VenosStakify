@@ -17,7 +17,7 @@ const AutoEarningsBreakdown: React.FC<AutoEarningsBreakdownProps> = ({ pool, acc
   const { pricePerFullShare, userData } = useVaultPoolByKey(pool.vaultKey)
   const { autoCakeToDisplay, autoUsdToDisplay } = getCakeVaultEarnings(
     account,
-    userData.cakeAtLastUserAction,
+    userData.venosAtLastUserAction,
     userData.userShares,
     pricePerFullShare,
     earningTokenPrice,

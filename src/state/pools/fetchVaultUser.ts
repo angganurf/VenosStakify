@@ -22,7 +22,7 @@ export const fetchVaultUser = async (account: string): Promise<SerializedLockedV
       userShares: new BigNumber(userContractResponse.shares.toString()).toJSON(),
       lastDepositedTime: userContractResponse.lastDepositedTime.toString(),
       lastUserActionTime: userContractResponse.lastUserActionTime.toString(),
-      cakeAtLastUserAction: new BigNumber(userContractResponse.cakeAtLastUserAction.toString()).toJSON(),
+      venosAtLastUserAction: new BigNumber(userContractResponse.venosAtLastUserAction.toString()).toJSON(),
       userBoostedShare: new BigNumber(userContractResponse.userBoostedShare.toString()).toJSON(),
       locked: userContractResponse.locked,
       lockEndTime: userContractResponse.lockEndTime.toString(),
@@ -37,7 +37,7 @@ export const fetchVaultUser = async (account: string): Promise<SerializedLockedV
       userShares: null,
       lastDepositedTime: null,
       lastUserActionTime: null,
-      cakeAtLastUserAction: null,
+      venosAtLastUserAction: null,
       userBoostedShare: null,
       lockEndTime: null,
       lockStartTime: null,
@@ -57,7 +57,7 @@ export const fetchFlexibleSideVaultUser = async (account: string): Promise<Seria
       userShares: new BigNumber(userContractResponse.shares.toString()).toJSON(),
       lastDepositedTime: userContractResponse.lastDepositedTime.toString(),
       lastUserActionTime: userContractResponse.lastUserActionTime.toString(),
-      cakeAtLastUserAction: new BigNumber(userContractResponse.cakeAtLastUserAction.toString()).toJSON(),
+      venosAtLastUserAction: new BigNumber(userContractResponse.venosAtLastUserAction.toString()).toJSON(),
     }
   } catch (error) {
     return {
@@ -65,7 +65,7 @@ export const fetchFlexibleSideVaultUser = async (account: string): Promise<Seria
       userShares: null,
       lastDepositedTime: null,
       lastUserActionTime: null,
-      cakeAtLastUserAction: null,
+      venosAtLastUserAction: null,
     }
   }
 }

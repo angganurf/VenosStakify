@@ -23,12 +23,12 @@ const AutoHarvestAction: React.FunctionComponent<DeserializedPool> = ({
 
   const vaultData = useVaultPoolByKey(vaultKey)
   const {
-    userData: { userShares, cakeAtLastUserAction },
+    userData: { userShares, venosAtLastUserAction },
     pricePerFullShare,
   } = vaultData
   const { hasAutoEarnings, autoCakeToDisplay, autoUsdToDisplay } = getCakeVaultEarnings(
     account,
-    cakeAtLastUserAction,
+    venosAtLastUserAction,
     userShares,
     pricePerFullShare,
     earningTokenPrice,

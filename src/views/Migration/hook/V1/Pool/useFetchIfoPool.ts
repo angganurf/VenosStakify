@@ -31,7 +31,7 @@ const fetchVaultUserV1 = async (account: string) => {
       userShares: new BigNumber(userContractResponse.shares.toString()).toJSON(),
       lastDepositedTime: userContractResponse.lastDepositedTime.toString(),
       lastUserActionTime: userContractResponse.lastUserActionTime.toString(),
-      cakeAtLastUserAction: new BigNumber(userContractResponse.cakeAtLastUserAction.toString()).toJSON(),
+      venosAtLastUserAction: new BigNumber(userContractResponse.venosAtLastUserAction.toString()).toJSON(),
     }
   } catch (error) {
     return {
@@ -39,7 +39,7 @@ const fetchVaultUserV1 = async (account: string) => {
       userShares: null,
       lastDepositedTime: null,
       lastUserActionTime: null,
-      cakeAtLastUserAction: null,
+      venosAtLastUserAction: null,
     }
   }
 }
@@ -77,7 +77,7 @@ const transformData = ({
   pricePerFullShare,
   totalCakeInVault,
   fees: { performanceFee, withdrawalFee, withdrawalFeePeriod },
-  userData: { isLoading, userShares, cakeAtLastUserAction, lastDepositedTime, lastUserActionTime },
+  userData: { isLoading, userShares, venosAtLastUserAction, lastDepositedTime, lastUserActionTime },
 }) => {
   return {
     totalShares: new BigNumber(totalShares),
@@ -92,7 +92,7 @@ const transformData = ({
     userData: {
       isLoading,
       userShares: new BigNumber(userShares),
-      cakeAtLastUserAction: new BigNumber(cakeAtLastUserAction),
+      venosAtLastUserAction: new BigNumber(venosAtLastUserAction),
       lastDepositedTime,
       lastUserActionTime,
     },

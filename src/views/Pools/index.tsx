@@ -111,7 +111,7 @@ const sortPools = (account: string, sortOption: string, pools: DeserializedPool[
             }
             return getCakeVaultEarnings(
               account,
-              userData.cakeAtLastUserAction,
+              userData.venosAtLastUserAction,
               userData.userShares,
               pricePerFullShare,
               pool.earningTokenPrice,

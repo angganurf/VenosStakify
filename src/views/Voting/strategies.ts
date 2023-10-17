@@ -238,7 +238,7 @@ export function lockedCake(cakeVaultAddress, outputName: 'lockedAmount' | 'lockE
           },
           {
             internalType: 'uint256',
-            name: 'cakeAtLastUserAction',
+            name: 'venosAtLastUserAction',
             type: 'uint256',
           },
           {
