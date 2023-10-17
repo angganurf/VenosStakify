@@ -15,7 +15,7 @@ interface TokenPairImageProps extends Omit<UIKitTokenPairImageProps, 'primarySrc
 const getImageUrlFromToken = (token: Token) => {
   const address = token === ETHER ? bscTokens.bnb.address : token.address
   if (token.chainId !== ChainId.BSC) {
-    return `/images/${token.chainId}/tokens/${address}.png`
+    return `/images/tokens/${address}.png`
   }
   return `/images/tokens/${address}.png`
 }

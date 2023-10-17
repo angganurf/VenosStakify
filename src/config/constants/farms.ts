@@ -1,8 +1,8 @@
 import { serializeTokens } from 'utils/serializeTokens'
-import { bscTokens } from './tokens' //add opbnbTestnetTokens
+import { bscTokens, opbnbTestnetTokens } from './tokens' //add opbnbTestnetTokens
 import { SerializedFarmConfig } from './types'
 
-const serializedTokens = serializeTokens(bscTokens)
+const serializedTokens = serializeTokens(opbnbTestnetTokens)
 
 export const CAKE_BNB_LP_MAINNET = '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0'
 
@@ -26,7 +26,7 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 251,
     lpSymbol: 'VENOS-BNB LP',
     lpAddresses: {
-      5611: '0x71E6898dcefBe5083cB0745dC8ba2D1106FA2361',
+      5611: '0x88a4180d1d2684657fac5f92293e353dce21299d',
       204: CAKE_BNB_LP_MAINNET,
     },
     token: serializedTokens.cake,

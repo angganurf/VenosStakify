@@ -2345,6 +2345,14 @@ export const opbnbTestnetTokens = {
     'SyrupBar Token',
     'https://venosproject.com/',
   ),
+  btcb: new Token(
+    ChainId.BSC_TESTNET,
+    '0x3AB4E696E31173409dbfBb1FEB5b9A7cC55A212c',
+    18,
+    'BTCB',
+    'Binance BTC',
+    'https://bitcoin.org/',
+  ),
   bake: new Token(
     ChainId.BSC_TESTNET,
     '0xE513121F9908ecB99AC8ef58897f4fF61AFEb4f3',
