@@ -89,17 +89,17 @@ export const WBNB = {
     ChainId.BSC,
     '0x4200000000000000000000000000000000000006',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
+    'BNB',
+    'BNB',
+    'https://www.binance.com/'
   ),
   [ChainId.BSC_TESTNET]: new Token(
     ChainId.BSC_TESTNET,
-    '0x4200000000000000000000000000000000000006',
+    '0xF0B4a48860434a386489Eb07900A2Fd20B5F45EB',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://opbnb.bnbchain.org/'
+    'tBNB',
+    'tBNB',
+    'https://www.binance.com/'
   ),
 }
 

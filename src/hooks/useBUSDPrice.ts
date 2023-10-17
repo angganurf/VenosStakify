@@ -81,6 +81,7 @@ export default function useBUSDPrice(currency?: Currency): Price | undefined {
 export const useCakeBusdPrice = (): Price | undefined => {
   const { chainId } = useActiveWeb3React()
   const cakeBusdPrice = useBUSDPrice(CAKE[chainId])
+  console.log(cakeBusdPrice)
   return cakeBusdPrice
 }
 
@@ -100,6 +101,7 @@ export const useBUSDCakeAmount = (amount: number): number | undefined => {
   if (cakeBusdPrice) {
     return multiplyPriceByAmount(cakeBusdPrice, amount)
   }
+
   return undefined
 }
 
