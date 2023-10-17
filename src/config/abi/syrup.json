@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract CakeToken",
-        "name": "_cake",
+        "internalType": "contract VenosToken",
+        "name": "_venos",
         "type": "address"
       }
     ],
@@ -238,19 +238,6 @@
     "name": "burn",
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "cake",
-    "outputs": [
-      {
-        "internalType": "contract CakeToken",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -590,7 +577,7 @@
         "type": "uint256"
       }
     ],
-    "name": "safeCakeTransfer",
+    "name": "safeVenosTransfer",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -685,6 +672,19 @@
     "name": "transferOwnership",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "venos",
+    "outputs": [
+      {
+        "internalType": "contract VenosToken",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   }
 ]

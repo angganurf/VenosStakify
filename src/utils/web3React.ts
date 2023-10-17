@@ -17,8 +17,8 @@ export const injected = new InjectedConnector({ supportedChainIds: SUPPORTED_CHA
 
 const walletconnect = new WalletConnectConnector({
   rpc: {
-    [ChainId.BSC]: 'https://bsc-dataseed.binance.org',
-    [ChainId.BSC_TESTNET]: 'https://rpc.test.btcs.network',
+    [ChainId.BSC]: 'https://opbnb-mainnet-rpc.bnbchain.org',
+    [ChainId.BSC_TESTNET]: 'https://opbnb-testnet-rpc.bnbchain.org',
   },
   qrcode: true,
   pollingInterval: POLLING_INTERVAL,
@@ -32,14 +32,14 @@ export const connectorsByName = {
   [ConnectorNames.BSC]: bscConnector,
   [ConnectorNames.Blocto]: async () => {
     const { BloctoConnector } = await import('@blocto/blocto-connector')
-    return new BloctoConnector({ chainId: ChainId.BSC, rpc: 'https://bsc.nodereal.io' })
+    return new BloctoConnector({ chainId: ChainId.BSC_TESTNET, rpc: 'https://opbnb-testnet-rpc.bnbchain.org' })
   },
   [ConnectorNames.WalletLink]: async () => {
     const { WalletLinkConnector } = await import('@web3-react/walletlink-connector')
     return new WalletLinkConnector({
-      url: 'https://pancakeswap.finance',
-      appName: 'PancakeSwap',
-      appLogoUrl: 'https://pancakeswap.com/logo.png',
+      url: 'https://venosproject.com',
+      appName: 'Venos Stakify',
+      appLogoUrl: 'https://venosproject.com/images/icons/logo.png',
       supportedChainIds: SUPPORTED_CHAIN_ID,
     })
   },

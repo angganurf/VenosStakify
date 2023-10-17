@@ -48,7 +48,7 @@ export const CAKE = {
 
 const BUSD_MAINNET = new Token(
   ChainId.BSC,
-  '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+  '0xe4817d847b020ebf9650a70baecc53631c172a35',
   18,
   'BUSD',
   'Binance USD',
@@ -2339,7 +2339,7 @@ export const opbnbTestnetTokens = {
   busd: BUSD_TESTNET,
   syrup: new Token(
     ChainId.BSC_TESTNET,
-    '0xAd18BdB271073aE3E7c553dfe527bcB8089DD4C3',
+    '0x0C287E5726648e461c7594fEcCBc6Ef06C883B67',
     18,
     'SYRUP',
     'SyrupBar Token',

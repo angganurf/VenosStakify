@@ -1,9 +1,9 @@
 import { JSBI, Token, TokenAmount } from '@pancakeswap/sdk'
 import getPriceForOneToken from './getPriceForOneToken'
 
-const CAKE = new Token(56, '0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC', 18, 'VENOS', 'Venos Stakify Token')
-const BUSD = new Token(56, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
-const DOGE = new Token(56, '0xbA2aE424d960c26247Dd6c32edC70B295c744C43', 8, 'DOGE', 'Binance-Peg Dogecoin')
+const CAKE = new Token(204, '0xadEFbbac7501f4Df8aDC7288c2FA86d36A3E9ebC', 18, 'VENOS', 'Venos Stakify Token')
+const BUSD = new Token(204, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
+const DOGE = new Token(204, '0xbA2aE424d960c26247Dd6c32edC70B295c744C43', 8, 'DOGE', 'Binance-Peg Dogecoin')
 
 const EIGHT_DECIMALS = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(8))
 const EIGHTEEN_DECIMALS = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(18))

@@ -7,8 +7,8 @@
         "type": "address"
       },
       {
-        "internalType": "contract ICakePool",
-        "name": "_cakePool",
+        "internalType": "contract IVenosPool",
+        "name": "_venosPool",
         "type": "address"
       },
       {
@@ -97,7 +97,7 @@
         "type": "uint256"
       }
     ],
-    "name": "DepositCake",
+    "name": "DepositVenos",
     "type": "event"
   },
   {
@@ -391,19 +391,6 @@
     "type": "function"
   },
   {
-    "inputs": [],
-    "name": "cakePool",
-    "outputs": [
-      {
-        "internalType": "contract ICakePool",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
     "inputs": [
       {
         "internalType": "uint256",
@@ -674,13 +661,26 @@
       },
       {
         "internalType": "uint256",
-        "name": "cakeAtLastUserAction",
+        "name": "venosAtLastUserAction",
         "type": "uint256"
       },
       {
         "internalType": "uint256",
         "name": "lastUserActionTime",
         "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "venosPool",
+    "outputs": [
+      {
+        "internalType": "contract IVenosPool",
+        "name": "",
+        "type": "address"
       }
     ],
     "stateMutability": "view",

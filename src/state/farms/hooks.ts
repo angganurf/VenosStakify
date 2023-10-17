@@ -51,8 +51,8 @@ export const usePollFarmsWithUserData = () => {
  * 3 = BUSD-BNB LP
  */
 const coreFarmPIDs = {
-  56: [2, 3],
-  97: [1, 2],
+  204: [2, 3],
+  5611: [1, 2],
 }
 
 export const usePollCoreFarmData = () => {
@@ -61,7 +61,7 @@ export const usePollCoreFarmData = () => {
   // const { chainId } = useActiveWeb3React()
 
   useFastRefreshEffect(() => {
-    dispatch(fetchFarmsPublicDataAsync(coreFarmPIDs[56]))
+    dispatch(fetchFarmsPublicDataAsync(coreFarmPIDs[5611]))
   }, [dispatch])
 }
 

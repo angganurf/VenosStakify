@@ -45,12 +45,12 @@ const config: (
           label: t('Swap'),
           href: '/swap',
         },
-        {
-          label: t('opBNB Sales'),
-          href: '/limit-orders',
-          supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
-          disabled: true,
-        },
+        // {
+        //   label: t('opBNB Sales'),
+        //   href: '/limit-orders',
+        //   supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
+        //   disabled: true,
+        // },
         {
           label: t('Liquidity'),
           href: '/liquidity',
@@ -71,7 +71,7 @@ const config: (
       href: '/farms',
       icon: EarnIcon,
       fillIcon: EarnFillIcon,
-      supportChainIds: [ChainId.BSC],
+      supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
       items: [
         {
           label: t('Farms'),
@@ -135,7 +135,7 @@ const config: (
       href: '/info',
       icon: MoreIcon,
       hideSubNav: true,
-      supportChainIds: [ChainId.BSC],
+      supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
       items: [
         {
           label: t('Info'),

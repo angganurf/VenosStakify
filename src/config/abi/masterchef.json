@@ -2,9 +2,19 @@
   {
     "inputs": [
       {
-        "internalType": "contract IBEP20",
-        "name": "_SHDW",
+        "internalType": "contract IMasterChef",
+        "name": "_MASTER_CHEF",
         "type": "address"
+      },
+      {
+        "internalType": "contract IBEP20",
+        "name": "_VENOS",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_MASTER_PID",
+        "type": "uint256"
       },
       {
         "internalType": "address",
@@ -94,31 +104,6 @@
       }
     ],
     "name": "EmergencyWithdraw",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "burnRate",
-        "type": "uint256"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "regularFarmRate",
-        "type": "uint256"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "specialFarmRate",
-        "type": "uint256"
-      }
-    ],
-    "name": "EventUpdateShdwRate",
     "type": "event"
   },
   {
@@ -252,11 +237,36 @@
       {
         "indexed": false,
         "internalType": "uint256",
-        "name": "accShdwPerShare",
+        "name": "accVenosPerShare",
         "type": "uint256"
       }
     ],
     "name": "UpdatePool",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "burnRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "regularFarmRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "specialFarmRate",
+        "type": "uint256"
+      }
+    ],
+    "name": "UpdateVenosRate",
     "type": "event"
   },
   {
@@ -305,7 +315,7 @@
   },
   {
     "inputs": [],
-    "name": "ACC_SHDW_PRECISION",
+    "name": "ACC_VENOS_PRECISION",
     "outputs": [
       {
         "internalType": "uint256",
@@ -331,7 +341,33 @@
   },
   {
     "inputs": [],
-    "name": "MASTERCHEF_SHDW_PER_BLOCK",
+    "name": "MASTERCHEF_VENOS_PER_BLOCK",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "MASTER_CHEF",
+    "outputs": [
+      {
+        "internalType": "contract IMasterChef",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "MASTER_PID",
     "outputs": [
       {
         "internalType": "uint256",
@@ -357,7 +393,7 @@
   },
   {
     "inputs": [],
-    "name": "SHDW",
+    "name": "VENOS",
     "outputs": [
       {
         "internalType": "contract IBEP20",
@@ -370,7 +406,7 @@
   },
   {
     "inputs": [],
-    "name": "SHDW_RATE_TOTAL_PRECISION",
+    "name": "VENOS_RATE_TOTAL_PRECISION",
     "outputs": [
       {
         "internalType": "uint256",
@@ -443,7 +479,7 @@
         "type": "bool"
       }
     ],
-    "name": "burnShdw",
+    "name": "burnVenos",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -501,6 +537,26 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "harvestFromMasterChef",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBEP20",
+        "name": "dummyToken",
+        "type": "address"
+      }
+    ],
+    "name": "init",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
@@ -568,7 +624,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingShdw",
+    "name": "pendingVenos",
     "outputs": [
       {
         "internalType": "uint256",
@@ -591,7 +647,7 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "accShdwPerShare",
+        "name": "accVenosPerShare",
         "type": "uint256"
       },
       {
@@ -659,77 +715,6 @@
     "name": "set",
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "bool",
-        "name": "_isRegular",
-        "type": "bool"
-      }
-    ],
-    "name": "shdwPerBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "amount",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "shdwPerBlockToBurn",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "amount",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "shdwRateToBurn",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "shdwRateToRegularFarm",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "shdwRateToSpecialFarm",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -834,7 +819,7 @@
         "components": [
           {
             "internalType": "uint256",
-            "name": "accShdwPerShare",
+            "name": "accVenosPerShare",
             "type": "uint256"
           },
           {
@@ -858,7 +843,7 @@
             "type": "bool"
           }
         ],
-        "internalType": "struct ShadowChefV2.PoolInfo",
+        "internalType": "struct MasterChefV2.PoolInfo",
         "name": "pool",
         "type": "tuple"
       }
@@ -889,7 +874,7 @@
         "type": "bool"
       }
     ],
-    "name": "updateShdwRate",
+    "name": "updateVenosRate",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -940,6 +925,77 @@
       {
         "internalType": "uint256",
         "name": "boostMultiplier",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "_isRegular",
+        "type": "bool"
+      }
+    ],
+    "name": "venosPerBlock",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "venosPerBlockToBurn",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "venosRateToBurn",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "venosRateToRegularFarm",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "venosRateToSpecialFarm",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
         "type": "uint256"
       }
     ],

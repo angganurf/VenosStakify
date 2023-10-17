@@ -6,7 +6,7 @@ export type BigintIsh = JSBI | number | string
 export enum ChainId {
   // ETHEREUM = 1,
   // RINKEBY = 4,
-  BSC = 56,
+  BSC = 204,
   BSC_TESTNET = 5611,
 }
 
@@ -21,18 +21,18 @@ export enum Rounding {
   ROUND_UP,
 }
 
-export const FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+export const FACTORY_ADDRESS = '0x529302fADFb40D8BB552B58EEd45C002C15fCA0B'
 
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.BSC]: FACTORY_ADDRESS,
-  [ChainId.BSC_TESTNET]: '0x1524bb793efBdc6FAa20C63f001Cfd8122414A3b',
+  [ChainId.BSC_TESTNET]: '0x7cb09535D2bEBFb90ce369B3322D05F2D7d51093',
 }
 
-export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
+export const INIT_CODE_HASH = '0x86f2aa16c215e383fcd71c6874d69e260cf677440addea2d41ffb27dde8df497'
 
 export const INIT_CODE_HASH_MAP = {
   [ChainId.BSC]: INIT_CODE_HASH,
-  [ChainId.BSC_TESTNET]: '0x025d1f429076fbd412c890b41aaa0edc8b95b872b1b8669c7721be269f7a81a4',
+  [ChainId.BSC_TESTNET]: '0x0577750ee1352a92aaff2432e8d11c779bda3cfefa8004d1088e42cc0d6fd8ba',
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)

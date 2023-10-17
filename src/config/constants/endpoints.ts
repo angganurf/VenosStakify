@@ -15,8 +15,8 @@ export const GRAPH_API_POTTERY = process.env.NEXT_PUBLIC_GRAPH_API_POTTERY
  */
 export const GRAPH_API_PREDICTION_V1 = 'https://api.thegraph.com/subgraphs/name/pancakeswap/prediction'
 
-export const INFO_CLIENT = 'https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2'
-export const BLOCKS_CLIENT = 'https://api.thegraph.com/subgraphs/name/pancakeswap/blocks'
+export const INFO_CLIENT = 'https://opbnb-mainnet-graph.nodereal.io/subgraphs/name/pancakeswap/exchange-v2'
+export const BLOCKS_CLIENT = 'https://opbnb-mainnet-graph.nodereal.io/subgraphs/name/pancakeswap/blocks'
 export const GRAPH_API_NFTMARKET = process.env.NEXT_PUBLIC_GRAPH_API_NFT_MARKET
 export const GRAPH_HEALTH = 'https://api.thegraph.com/index-node/graphql'
 

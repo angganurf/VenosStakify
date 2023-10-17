@@ -87,7 +87,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 export const WBNB = {
   [ChainId.BSC]: new Token(
     ChainId.BSC,
-    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    '0x4200000000000000000000000000000000000006',
     18,
     'WBNB',
     'Wrapped BNB',
