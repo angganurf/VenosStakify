@@ -7,8 +7,9 @@ import { useTranslation } from 'contexts/Localization'
 import PhishingWarningBanner from 'components/PhishingWarningBanner'
 import { NetworkSwitcher } from 'components/NetworkSwitcher'
 import useTheme from 'hooks/useTheme'
-import { usePriceCakeBusd } from 'state/farms/hooks'
+// import { usePriceCakeBusd } from 'state/farms/hooks'
 import { usePhishingBannerManager } from 'state/user/hooks'
+import { useCakeBusdPrice } from 'hooks/useBUSDPrice'
 import UserMenu from './UserMenu'
 import { useMenuItems } from './hooks/useMenuItems'
 import GlobalSettings from './GlobalSettings'
@@ -18,7 +19,7 @@ import { SettingsMode } from './GlobalSettings/types'
 
 const Menu = (props) => {
   const { isDark, setTheme } = useTheme()
-  const cakePriceUsd = usePriceCakeBusd()
+  const cakePriceUsd = useCakeBusdPrice()
   const { currentLanguage, setLanguage, t } = useTranslation()
   const { pathname } = useRouter()
   const [showPhishingWarningBanner] = usePhishingBannerManager()
@@ -54,7 +55,7 @@ const Menu = (props) => {
       currentLang={currentLanguage.code}
       langs={languageList}
       setLang={setLanguage}
-      cakePriceUsd={cakePriceUsd.toNumber()}
+      cakePriceUsd={cakePriceUsd}
       links={menuItems}
       subLinks={activeMenuItem?.hideSubNav || activeSubMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
       footerLinks={getFooterLinks}

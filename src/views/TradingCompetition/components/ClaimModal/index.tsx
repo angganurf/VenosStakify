@@ -31,7 +31,7 @@ const ClaimModal: React.FC<CompetitionProps> = ({ onDismiss, onClaimSuccess, use
   const { t } = useTranslation()
 
   const { userRewardGroup, userCakeRewards, userDarRewards, userPointReward, canClaimNFT } = userTradingInformation
-  const { cakeReward, darReward } = useModCompetitionRewards({
+  const { cakeReward } = useModCompetitionRewards({
     userCakeRewards,
     userDarRewards,
   })
@@ -64,11 +64,11 @@ const ClaimModal: React.FC<CompetitionProps> = ({ onDismiss, onClaimSuccess, use
         </Flex>
         {/* tokens */}
         <Heading mt="16px" scale="md" mb={canClaimNFT ? '16px' : '0px'}>
-          {cakeReward.toFixed(4)} CAKE
+          {cakeReward.toFixed(4)} VENOS
         </Heading>
-        <Heading mt="16px" scale="md" mb={canClaimNFT ? '16px' : '0px'}>
+        {/* <Heading mt="16px" scale="md" mb={canClaimNFT ? '16px' : '0px'}>
           {darReward.toFixed(4)} DAR
-        </Heading>
+        </Heading> */}
         {/* NFT */}
         {canClaimSpecialNFT ? (
           <Flex alignItems="center" flexDirection="column" width="100%">

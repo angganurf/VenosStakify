@@ -31,9 +31,9 @@ export const useFanTokenCompetitionRewards = ({
   userPortoRewards: ReactText
   userSantosRewards: ReactText
 }) => {
-  const lazioPriceBUSD = useBUSDPrice(bscTokens.lazio)
-  const portoPriceBUSD = useBUSDPrice(bscTokens.porto)
-  const santosPriceBUSD = useBUSDPrice(bscTokens.santos)
+  // const lazioPriceBUSD = useBUSDPrice(bscTokens.lazio)
+  // const portoPriceBUSD = useBUSDPrice(bscTokens.porto)
+  // const santosPriceBUSD = useBUSDPrice(bscTokens.santos)
   const cakeAsBigNumber = new BigNumber(userCakeRewards as string)
   const lazioAsBigNumber = new BigNumber(userLazioRewards as string)
   const portoAsBigNumber = new BigNumber(userPortoRewards as string)
@@ -44,13 +44,12 @@ export const useFanTokenCompetitionRewards = ({
   const santosBalance = getBalanceNumber(santosAsBigNumber, 8)
   const cakePriceBusd = useCakeBusdPrice()
 
-  const dollarValueOfTokensReward =
-    cakePriceBusd && lazioPriceBUSD && portoPriceBUSD && santosPriceBUSD
-      ? multiplyPriceByAmount(cakePriceBusd, cakeBalance) +
-        multiplyPriceByAmount(lazioPriceBUSD, lazioBalance, 8) +
-        multiplyPriceByAmount(portoPriceBUSD, portoBalance, 8) +
-        multiplyPriceByAmount(santosPriceBUSD, santosBalance, 8)
-      : null
+  const dollarValueOfTokensReward = cakePriceBusd
+    ? multiplyPriceByAmount(cakePriceBusd, cakeBalance)
+    : // multiplyPriceByAmount(lazioPriceBUSD, lazioBalance, 8) +
+      // multiplyPriceByAmount(portoPriceBUSD, portoBalance, 8) +
+      // multiplyPriceByAmount(santosPriceBUSD, santosBalance, 8)
+      null
 
   return {
     cakeReward: cakeBalance,
@@ -68,17 +67,14 @@ export const useMoboxCompetitionRewards = ({
   userCakeRewards: ReactText
   userMoboxRewards: ReactText
 }) => {
-  const moboxPriceBUSD = useBUSDPrice(bscTokens.mbox)
+  // const moboxPriceBUSD = useBUSDPrice(bscTokens.mbox)
   const cakeAsBigNumber = new BigNumber(userCakeRewards as string)
   const moboxAsBigNumber = new BigNumber(userMoboxRewards as string)
   const cakeBalance = getBalanceNumber(cakeAsBigNumber)
   const moboxBalance = getBalanceNumber(moboxAsBigNumber)
   const cakePriceBusd = useCakeBusdPrice()
 
-  const dollarValueOfTokensReward =
-    cakePriceBusd && moboxPriceBUSD
-      ? multiplyPriceByAmount(cakePriceBusd, cakeBalance) + multiplyPriceByAmount(moboxPriceBUSD, moboxBalance, 8)
-      : null
+  const dollarValueOfTokensReward = cakePriceBusd ? multiplyPriceByAmount(cakePriceBusd, cakeBalance) : null
 
   return {
     cakeReward: cakeBalance,
@@ -94,22 +90,18 @@ export const useModCompetitionRewards = ({
   userCakeRewards: ReactText
   userDarRewards: ReactText
 }) => {
-  const darPriceBUSD = useBUSDPrice(bscTokens.dar)
+  // const darPriceBUSD = useBUSDPrice(bscTokens.dar)
   const cakeAsBigNumber = new BigNumber(userCakeRewards as string)
   const darAsBigNumber = new BigNumber(userDarRewards as string)
   const cakeBalance = getBalanceNumber(cakeAsBigNumber)
-  const darBalance = getBalanceNumber(darAsBigNumber, bscTokens.dar.decimals)
+  // const darBalance = getBalanceNumber(darAsBigNumber, bscTokens.dar.decimals)
   const cakePriceBusd = useCakeBusdPrice()
 
-  const dollarValueOfTokensReward =
-    cakePriceBusd && darPriceBUSD
-      ? multiplyPriceByAmount(cakePriceBusd, cakeBalance) +
-        multiplyPriceByAmount(darPriceBUSD, darBalance, bscTokens.dar.decimals)
-      : null
+  const dollarValueOfTokensReward = cakePriceBusd ? multiplyPriceByAmount(cakePriceBusd, cakeBalance) : null
 
   return {
     cakeReward: cakeBalance,
-    darReward: darBalance,
+    // darReward: darBalance,
     dollarValueOfTokensReward,
   }
 }

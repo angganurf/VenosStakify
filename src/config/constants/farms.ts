@@ -5,6 +5,7 @@ import { SerializedFarmConfig } from './types'
 const serializedTokens = serializeTokens(opbnbTestnetTokens)
 
 export const CAKE_BNB_LP_MAINNET = '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0'
+export const CAKE_BNB_LP_TESTNET = '0x88a4180d1d2684657fac5f92293e353dce21299d'
 
 const farms: SerializedFarmConfig[] = [
   /**
@@ -26,7 +27,7 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 251,
     lpSymbol: 'VENOS-BNB LP',
     lpAddresses: {
-      5611: '0x88a4180d1d2684657fac5f92293e353dce21299d',
+      5611: CAKE_BNB_LP_TESTNET,
       204: CAKE_BNB_LP_MAINNET,
     },
     token: serializedTokens.cake,
@@ -35,13 +36,13 @@ const farms: SerializedFarmConfig[] = [
   {
     pid: 3,
     v1pid: 252,
-    lpSymbol: 'BUSD-BNB LP',
+    lpSymbol: 'WBNB-USDT LP',
     lpAddresses: {
-      5611: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      5611: '0x6387c09fa3e0c86b1d1d954362a7a962638de31e',
       204: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
     },
-    token: serializedTokens.busd,
-    quoteToken: serializedTokens.wbnb,
+    token: serializedTokens.wbnb,
+    quoteToken: serializedTokens.usdt,
   },
   //    * V3 by order of release (some may be out of PID order due to multiplier boost)
   // {

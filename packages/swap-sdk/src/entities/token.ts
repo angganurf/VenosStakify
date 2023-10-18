@@ -95,7 +95,7 @@ export const WBNB = {
   ),
   [ChainId.BSC_TESTNET]: new Token(
     ChainId.BSC_TESTNET,
-    '0xF0B4a48860434a386489Eb07900A2Fd20B5F45EB',
+    '0x4200000000000000000000000000000000000006',
     18,
     'tBNB',
     'tBNB',

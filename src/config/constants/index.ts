@@ -4,15 +4,14 @@ import { bscTokens, opbnbTestnetTokens } from './tokens'
 import { ChainTokenList } from './types'
 
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
-  [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt],
-  [ChainId.BSC_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.cake, opbnbTestnetTokens.busd],
+  [ChainId.BSC]: [bscTokens.wbnb, bscTokens.usdc, bscTokens.usdt],
+  [ChainId.BSC_TESTNET]: [opbnbTestnetTokens.wbnb, opbnbTestnetTokens.cake, opbnbTestnetTokens.usdt],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.BSC]: [
     [bscTokens.cake, bscTokens.wbnb],
-    [bscTokens.busd, bscTokens.usdt],
-    [bscTokens.dai, bscTokens.usdt],
+    [bscTokens.usdc, bscTokens.usdt],
   ],
 }
 

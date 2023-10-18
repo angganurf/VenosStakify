@@ -93,6 +93,7 @@ export const makeUserFarmFromPidSelector = (pid: number) =>
 
 export const priceCakeFromPidSelector = createSelector([selectCakeFarm], (cakeBnbFarm) => {
   const cakePriceBusdAsString = cakeBnbFarm.tokenPriceBusd
+  console.log(cakePriceBusdAsString)
   return new BigNumber(cakePriceBusdAsString)
 })
 
