@@ -41,7 +41,7 @@ const OldFarmStep1: React.FC = () => {
           new BigNumber(farm.poolWeight),
           cakePrice,
           totalLiquidity,
-          farm.lpAddresses[ChainId.BSC],
+          farm.lpAddresses[ChainId.BSC_TESTNET],
           CAKE_PER_YEAR,
         )
         return { ...farm, apr: cakeRewardsApr, lpRewardsApr, liquidity: totalLiquidity }

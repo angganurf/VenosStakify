@@ -1,5 +1,5 @@
 import getLpAddress from 'utils/getLpAddress'
-import { bscTokens } from './tokens'
+import { bscTokens, opbnbTestnetTokens } from './tokens'
 import { FarmAuctionBidderConfig } from './types'
 
 export const whitelistedBidders: FarmAuctionBidderConfig[] = [
@@ -7,7 +7,7 @@ export const whitelistedBidders: FarmAuctionBidderConfig[] = [
     account: '0xBc2b42bff61bc6056D5a1E1ebd9426333EfC8Bcb',
     farmName: 'BNB-BUSD',
     tokenAddress: '0x4200000000000000000000000000000000000006',
-    quoteToken: bscTokens.usdt,
+    quoteToken: opbnbTestnetTokens.usdt,
     tokenName: 'BNB',
     projectSite: 'https://OPBNB.com/',
   },
@@ -19,7 +19,7 @@ export const whitelistedBidders: FarmAuctionBidderConfig[] = [
 const UNKNOWN_BIDDER: FarmAuctionBidderConfig = {
   account: '',
   tokenAddress: '',
-  quoteToken: bscTokens.wbnb,
+  quoteToken: opbnbTestnetTokens.wbnb,
   farmName: 'Unknown',
   tokenName: 'Unknown',
 }

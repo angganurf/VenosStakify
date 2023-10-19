@@ -24,7 +24,7 @@ export function getBscScanLink(
   type: 'transaction' | 'token' | 'address' | 'block' | 'countdown',
   chainIdOverride?: number,
 ): string {
-  const chainId = chainIdOverride || ChainId.BSC
+  const chainId = chainIdOverride || ChainId.BSC_TESTNET
   switch (type) {
     case 'transaction': {
       return `${BASE_BSC_SCAN_URLS[chainId]}/tx/${data}`
@@ -45,7 +45,7 @@ export function getBscScanLink(
 }
 
 export function getBscScanLinkForNft(collectionAddress: string, tokenId: string): string {
-  return `${BASE_BSC_SCAN_URLS[ChainId.BSC]}/token/${collectionAddress}?a=${tokenId}`
+  return `${BASE_BSC_SCAN_URLS[ChainId.BSC_TESTNET]}/token/${collectionAddress}?a=${tokenId}`
 }
 
 // add 10%

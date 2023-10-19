@@ -51,7 +51,7 @@ const useGetTopFarmsByApr = (isIntersecting: boolean) => {
           farm.poolWeight,
           cakePriceBusd,
           totalLiquidity,
-          farm.lpAddresses[ChainId.BSC],
+          farm.lpAddresses[ChainId.BSC_TESTNET],
           regularCakePerBlock,
         )
         return { ...farm, apr: cakeRewardsApr, lpRewardsApr }

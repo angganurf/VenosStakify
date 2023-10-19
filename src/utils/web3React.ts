@@ -29,7 +29,7 @@ const bscConnector = new BscConnector({ supportedChainIds: SUPPORTED_CHAIN_ID })
 export const connectorsByName = {
   [ConnectorNames.Injected]: injected,
   [ConnectorNames.WalletConnect]: walletconnect,
-  [ConnectorNames.BSC]: bscConnector,
+  [ConnectorNames.OPBNBT]: bscConnector,
   [ConnectorNames.Blocto]: async () => {
     const { BloctoConnector } = await import('@blocto/blocto-connector')
     return new BloctoConnector({ chainId: ChainId.BSC_TESTNET, rpc: 'https://opbnb-testnet-rpc.bnbchain.org' })
